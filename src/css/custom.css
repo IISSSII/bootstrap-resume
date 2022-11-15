@@ -1,0 +1,58 @@
+/* googlefont :IBM Plex Sans Thai , Prompt*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&fam ily=Prompt:ital,wght@0,100;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+@font-face {
+  font-family: "Bangna";
+  src: url('../fonts/bangna-new.eot'),
+    url('../fonts/bangna-new.ttf');
+}
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, #d6a9d6, #daa6d8, #dea2da, #e39edb, #e79adc);
+}
+* {
+  font-family: "Bangna";
+}
+
+.bg-light{
+    background-color: #df5bcd!important;
+}
+.navbar-brand{
+    font-size: 1.8rem;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.img-hight{
+    height: 500px;
+}
+.col-sm-4 h3, .font{
+    font-family: 'prompt';
+    font-weight: 400;
+    text-shadow: 2px 1px 2px #df5bcd;
+}
+.symbol-coppy{
+    font-family: 'prompt';
+}
+.card-cen{
+    margin-top: 4%;
+}
+.font{
+    font-size: 30px;
+}
+.skill img{
+  height: 200px;
+}
+.education img{
+    height: 400px;
+}
+.vertical {
+    float: left;
+    border-right: 2px solid #df5bcd;
+}
+.con-height{
+    height: 10rem;
+}
